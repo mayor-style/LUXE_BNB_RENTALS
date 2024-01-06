@@ -1,0 +1,71 @@
+.homeSection h1{
+  font-size: 40px;
+}
+.navbar{
+  height: 17vh;
+}
+
+.logoCon{
+  z-index: 45678;
+}
+
+.links a{
+  font-size: 13px; 
+}
+
+.leftText{
+  font-size: 20px;
+}
+
+.leftSlideSlogan{
+font-size: 28px;
+}
+
+.servicesH{
+  font-size: 30px;
+}
+
+.text h1{
+  font-size: 25px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.text ul li{
+  font-size: 13px;
+  margin-left: 19px;
+  margin-top: 20px;
+  
+}
+
+.Learn{
+  display: none;
+}
+
+.text{
+  margin-top: -170%;
+  margin-left: -10px;
+  
+}
+
+.contact h1{
+  font-size: 28px;
+}
+
+.contact button{
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+
+.slides img{
+  width: 270px;
+ 
+}
+.slides2 img{
+  width: 270px;
+}
+.slides3 img{
+  width: 270px;
+}

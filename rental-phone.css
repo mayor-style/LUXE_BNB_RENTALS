@@ -1,0 +1,140 @@
+.links {
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  top: 8vh;
+  height: 92vh;
+  background-color: black;
+  align-items: center;
+  width: 60%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.links a{
+  opacity: 0;
+  
+}
+.burger{
+  display: block;
+}
+.Learn{
+  display: none;
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.welcome {
+  margin-top: -80px;
+
+}
+
+.homeSection .luxe {
+  margin-bottom: -160px;
+
+
+}
+
+.homeSection h1 {
+  font-size: 60px;
+}
+
+.firstSec {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+
+}
+
+.leftBack {
+  height: 100vh;
+}
+
+
+
+.leftSlideSlogan {
+  font-size: 30px;
+  display: block;
+  width: 200%;
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+.leftText {
+  width: 170%;
+  text-align: justify;
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 15%;
+
+
+}
+
+.slider-con {
+  height: 200vh;
+}
+
+.servicesH {
+  padding-bottom: 15px;
+}
+
+.Why {
+  height: 85vh;
+  padding-top: 30px;
+  width: 100%;
+
+}
+
+.image {
+  position: static;
+}
+
+.image img {
+  width: 85%;
+  height: 75vh;
+  position: relative;
+}
+
+.text {
+  margin-top: -150%;
+}
+
+.text h1 {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.text ul li {
+  font-size: 15px;
+  width: 70%;
+  margin-left: -20px;
+}
+.text ul{
+  margin-top :30px; ;
+}
+
+
+@keyframes navLinkFade {
+   from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
